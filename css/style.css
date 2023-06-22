@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  article,
+  aside,
+  figure,
+  footer,
+  header,
+  hgroup,
+  nav,
+  section {
+    display: block;
+  }
+  
+  body {
+    font: normal .8em arial, sans-serif;
+    background: #C4E9E8 url(../img/back.png) repeat-x;
+    color: #555;
+  
+  }
+  
+  #container #logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+  
+  }
+  
+  #container { 
+    background: transparent url(../img/grass.png) repeat-x bottom;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+  
+  
+  }
+  
+  #main {
+    background-color: white;
+    height: 850px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+  
+  
+  }
+  
+  header {
+  
+    background: transparent url(../img/logo.png) repeat-x;
+    height: 250px;
+    width: 850px;
+  
+  
+  
+  }
+  
+  nav {
+    background-color: #53C7FD;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 50px;
+    width: 850px;
+  
+  }
+  
+  nav a {
+  
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+  
+  }
+  
+  nav li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    display: block;
+  }
+  
+  nav> li{
+    float: left;
+  }
+  
+  nav li ul{
+    background-color:#53C7FD;
+    display:none ;
+    position: absolute;
+    min-width: 140px;
+    margin-top: 30px;
+  }
+  
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: #E5017D;
+    border-radius: 20px;
+    padding: 14px 16px;
+  }
+  
+  nav li:hover > ul{
+  display: block;
+  }
+  
+  ul, ol, li{
+    list-style: none;
+  }
+  
+  
+  
+  footer{
+    background-color: #53C7FD;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 80px;
+    width: 850px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+   display: flex;
+    
+    
+  }
+  
+  footer a {
+  
+    float: left;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 25px 10px 25px;
+      border-right: 1px solid #fff;
+      text-decoration: underline;
+     height: 10px;
+     position: relative;
+     justify-content: center;
+  
+  }
+  
+  footer a:hover {
+    background-color: #ddd;
+    color: #E5017D;
+    border-radius: 20px;
+    padding: 14px 16px;
+  }
+  
+  aside {
+    border-radius: 20px;
+    border: 1px solid #C9E5E9;
+    background-color: #F5FEFF;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+  
+  }
+  
+  p {
+    text-align: justify;
+    padding: 5px;
+  }
+  
+  h1 {
+    color: #E5017D;
+  }
+  
+  main {
+    display: -webkit-flex;
+    display: flex;
+    height: 470px;
+  }
+  
+  #seccion {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #fff;
+    padding: 10px;
+    height: 430px;
+  
+  
+  }
+  
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #fff;
+    padding: 10px;
+    height: 430px;
+  
+  }
+  
+  article #imagen {
+  
+    float: right;
+   
+     border: 1px solid red;
+     margin-left: 10px;
+     margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container .recuadro{
+    background-color: #53C7FD;
+    border-bottom: 10px;
+    top: 20px;
+    position: relative;
+    height: 50px;
+    width: 835px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+
+  }
+
+   .container .content-table{
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .container .content-table thead tr{
+    background-color: #E5017D;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .container .content-table th, .content-table td{
+    padding: 12px 15px;
+  }
+
+  .container .content-table tbody tr{
+    border-bottom: 1px solid #dddddd ;
+
+  }
+
+  .container .content-table tbody tr:nth-of-type(even){
+    background-color: #fff;
+  }
+
+  .container .content-table tbody tr:last-of-type{
+    border-bottom: 40px solid #E5017D;
+  }
+  
+#line{
+  display: none;
+  place-content: center;
+}
